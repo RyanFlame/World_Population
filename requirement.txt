@@ -1,0 +1,16 @@
+annotated_text
+ipyvizzu
+ipyvizzustory
+plotly.express
+pandas
+streamlit
+streamlit_option_menu
+streamlit_extras.colored_header
+streamlit.components.v1
+
+
+
+
+
+
+
