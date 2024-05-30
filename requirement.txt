@@ -1,16 +1,19 @@
-annotated_text
-ipyvizzu
-ipyvizzustory
+streamlit
 plotly.express
 pandas
-streamlit
+os
+warnings
 streamlit_option_menu
+streamlit_lottie
+requests
 streamlit_extras.colored_header
+annotated_text 
 streamlit.components.v1
-
-
-
-
+ipyvizzu
+ipyvizzustory
+pathlib
+shutil
+ssl
 
 
 
