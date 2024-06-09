@@ -2,6 +2,7 @@ attr
 ConfigParser
 contextlib2
 cryptography
+cython
 docutils
 filelock
 geopandas
