@@ -2,6 +2,8 @@ streamlit
 openpyxl
 plotly
 pandas
+ez_setup
+setuptools
 attr
 unroll
 ConfigParser
