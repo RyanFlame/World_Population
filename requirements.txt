@@ -1,3 +1,7 @@
+streamlit
+openpyxl
+plotly
+pandas
 attr
 unroll
 ConfigParser
@@ -17,18 +21,14 @@ Jinja2
 jnius
 keyring
 mock
-pandas
 Pillow
-plotly
 protobuf
 pydeck
-openpyxl
 pyOpenSSL
 railroad
 redis
 Sphinx
 st_annotated_text
-streamlit
 streamlit_extras
 streamlit_lottie
 streamlit_option_menu
