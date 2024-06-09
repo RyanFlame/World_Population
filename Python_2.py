@@ -3,9 +3,10 @@ import plotly.express as px
 import pandas as pd
 import os
 import warnings
+import json
+import requests
 from streamlit_option_menu import option_menu
 import streamlit_lottie as st_lottie
-import requests
 from streamlit_extras.colored_header import colored_header
 from annotated_text import annotated_text
 from streamlit.components.v1 import html
@@ -14,6 +15,8 @@ from ipyvizzustory import Story, Slide, Step
 import pathlib
 import shutil
 import ssl
+import geopandas as gpd
+import pydeck as pdk
 
 warnings.filterwarnings('ignore')
 
@@ -34,12 +37,10 @@ value_vars = ['1970', '1980', '1990', '2000', '2010', '2020', '2022', '2030', '2
 # Melt the DataFrame
 df_reshaped = merged_df.melt(id_vars=id_vars, value_vars=value_vars, var_name='year', value_name='population')
 
+
+
 #######################
 # Plots
-import streamlit as st
-import geopandas as gpd
-import pandas as pd
-import pydeck as pdk
 
 # Aggregate growth_rate by country
 map_growth = df_reshaped.groupby('country')['year'].sum().reset_index()
@@ -138,8 +139,7 @@ if selected2 == "Home":
             annotated_text("Moreover, examining growth rate and land area can provide crucial insights into population density. This knowledge is crucial for guaranteeing the long-term management of resources and the planning of infrastructure.  Exploring the world population dataset goes beyond just statistics. It involves accessing a wealth of information that enables us to address global concerns and create a more affluent future for everyone.")
 
         with right_column:
-            st.lottie("https://lottie.host/4ff32b59-3137-42c6-ae6f-6831e22604e7/AM5TmClSle.json",key="World population")
-
+            st.lottie("https://lottie.host/4ff32b59-3137-42c6-ae6f-6831e22604e7/AM5TmClSle.json")
         
         st.sidebar.write("# Welcome to Our Python 2 Project 👋")
         st.sidebar.write("""This project aims to create an interactive dashboard that visually presents and generates various analyses from our first Python module.""")
