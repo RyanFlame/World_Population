@@ -4,7 +4,6 @@ plotly
 pandas
 setuptools
 attr
-unroll
 ConfigParser
 contextlib2
 cryptography
