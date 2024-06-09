@@ -18,7 +18,6 @@ ipyvizzu
 ipyvizzu_story
 ipywidgets
 Jinja2
-jnius
 keyring
 mock
 Pillow
