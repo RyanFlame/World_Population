@@ -10,6 +10,7 @@ HTMLParser
 importlib_metadata
 ipython
 ipyvizzu
+ipyvizzu_story
 ipywidgets
 Jinja2
 jnius
@@ -20,6 +21,7 @@ Pillow
 plotly
 protobuf
 pydeck
+openpyxl
 pyOpenSSL
 railroad
 redis
