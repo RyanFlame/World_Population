@@ -464,161 +464,161 @@ Year,Region,Period,Category,Medium,Low,High
 2090,Europe,Future,Migration+,4062976,4062641,4062936
 2095,Europe,Future,Migration+,4062969,4067434,4062929
 2100,Europe,Future,Migration+,0,0,0
-1950,LAC,Past,Migration-,-742671,-742671,-742671
-1955,LAC,Past,Migration-,-1439380,-1439380,-1439380
-1960,LAC,Past,Migration-,-1434477,-1434477,-1434477
-1965,LAC,Past,Migration-,-1922969,-1922969,-1922969
-1970,LAC,Past,Migration-,-2420439,-2420439,-2420439
-1975,LAC,Past,Migration-,-2504474,-2504474,-2504474
-1980,LAC,Past,Migration-,-4102634,-4102634,-4102634
-1985,LAC,Past,Migration-,-4832423,-4832423,-4832423
-1990,LAC,Past,Migration-,-3673510,-3673510,-3673510
-1995,LAC,Past,Migration-,-4098407,-4098407,-4098407
-2000,LAC,Past,Migration-,-4826168,-4826168,-4826168
-2005,LAC,Past,Migration-,-5092848,-5092848,-5092848
-2010,LAC,Past,Migration-,-2633466,-2633466,-2633466
-2015,LAC,Past,Migration-,-1631231,-1631231,-1631231
-2020,LAC,Past,Migration-,-927923,-927923,-927923
-2025,LAC,Future,Migration-,-690956,-690919,-690950
-2030,LAC,Future,Migration-,-954581,-954580,-954632
-2035,LAC,Future,Migration-,-1025542,-1025572,-1025605
-2040,LAC,Future,Migration-,-1000301,-1000282,-1000328
-2045,LAC,Future,Migration-,-983317,-983277,-983345
-2050,LAC,Future,Migration-,-981430,-981359,-981483
-2055,LAC,Future,Migration-,-981371,-981361,-981550
-2060,LAC,Future,Migration-,-981416,-981387,-981552
-2065,LAC,Future,Migration-,-981502,-981582,-981488
-2070,LAC,Future,Migration-,-981377,-981446,-981362
-2075,LAC,Future,Migration-,-981377,-981495,-981400
-2080,LAC,Future,Migration-,-981328,-981377,-981294
-2085,LAC,Future,Migration-,-981554,-981616,-981493
-2090,LAC,Future,Migration-,-981379,-965447,-981414
-2095,LAC,Future,Migration-,-981460,989818,-981342
-2100,LAC,Future,Migration-,0,0,0
-1950,LAC,Past,Deaths,-14628237,-14628237,-14628237
-1955,LAC,Past,Deaths,-14587128,-14587128,-14587128
-1960,LAC,Past,Deaths,-14655178,-14655178,-14655178
-1965,LAC,Past,Deaths,-14856642,-14856642,-14856642
-1970,LAC,Past,Deaths,-15050078,-15050078,-15050078
-1975,LAC,Past,Deaths,-15155313,-15155313,-15155313
-1980,LAC,Past,Deaths,-15315388,-15315388,-15315388
-1985,LAC,Past,Deaths,-15081203,-15081203,-15081203
-1990,LAC,Past,Deaths,-15210030,-15210030,-15210030
-1995,LAC,Past,Deaths,-15579005,-15579005,-15579005
-2000,LAC,Past,Deaths,-16182237,-16182237,-16182237
-2005,LAC,Past,Deaths,-17115729,-17115729,-17115729
-2010,LAC,Past,Deaths,-18612149,-18612149,-18612149
-2015,LAC,Past,Deaths,-20496661,-20496661,-20496661
-2020,LAC,Past,Deaths,-24464746,-24464746,-24464746
-2025,LAC,Future,Deaths,-23397731,-23294632,-23500859
-2030,LAC,Future,Deaths,-25552640,-25422773,-25682450
-2035,LAC,Future,Deaths,-27978638,-27843050,-28114490
-2040,LAC,Future,Deaths,-30550301,-30407669,-30696062
-2045,LAC,Future,Deaths,-33100464,-32935501,-33274645
-2050,LAC,Future,Deaths,-35485715,-35289966,-35698390
-2055,LAC,Future,Deaths,-37705768,-37475822,-37959972
-2060,LAC,Future,Deaths,-39812312,-39545687,-40110260
-2065,LAC,Future,Deaths,-41813470,-41502934,-42162249
-2070,LAC,Future,Deaths,-43542448,-43173851,-43958111
-2075,LAC,Future,Deaths,-44811331,-44360637,-45320054
-2080,LAC,Future,Deaths,-45542546,-44974802,-46182135
-2085,LAC,Future,Deaths,-45735852,-45001807,-46557694
-2090,LAC,Future,Deaths,-45431641,-44449172,-46520600
-2095,LAC,Future,Deaths,-44737802,-43366669,-46238288
-2100,LAC,Future,Deaths,0,0,0
-1950,LAC,Past,Population,166137383,166137383,166137383
-1955,LAC,Past,Population,189384027,189384027,189384027
-1960,LAC,Past,Population,216712725,216712725,216712725
-1965,LAC,Past,Population,248706117,248706117,248706117
-1970,LAC,Past,Population,283011868,283011868,283011868
-1975,LAC,Past,Population,319257004,319257004,319257004
-1980,LAC,Past,Population,358347441,358347441,358347441
-1985,LAC,Past,Population,398145939,398145939,398145939
-1990,LAC,Past,Population,438384266,438384266,438384266
-1995,LAC,Past,Population,479414859,479414859,479414859
-2000,LAC,Past,Population,518770743,518770743,518770743
-2005,LAC,Past,Population,554587278,554587278,554587278
-2010,LAC,Past,Population,587263897,587263897,587263897
-2015,LAC,Past,Population,619929407,619929407,619929407
-2020,LAC,Past,Population,649524000,649524000,649524000
-2025,LAC,Future,Population,672441678,668571985,676311207
-2030,LAC,Future,Population,695480218,682849039,708108445
-2035,LAC,Future,Population,714990391,690618004,739352277
-2040,LAC,Future,Population,730528985,693595077,767479171
-2045,LAC,Future,Population,741696624,692087592,791751608
-2050,LAC,Future,Population,748715280,685762560,813476470
-2055,LAC,Future,Population,751720943,674317534,833615459
-2060,LAC,Future,Population,751009310,657910324,852675840
-2065,LAC,Future,Population,746886993,637083138,870555336
-2070,LAC,Future,Population,739414588,612452852,886530613
-2075,LAC,Future,Population,728888550,584708834,900520324
-2080,LAC,Future,Population,715742082,554398197,913112337
-2085,LAC,Future,Population,700607735,522069839,925332659
-2090,LAC,Future,Population,684140809,488338283,938006900
-2095,LAC,Future,Population,666846122,453884812,951381832
-2100,LAC,Future,Population,649177439,419448426,965456189
-1950,LAC,Past,Births,38617552,38617552,38617552
-1955,LAC,Past,Births,43355206,43355206,43355206
-1960,LAC,Past,Births,48083047,48083047,48083047
-1965,LAC,Past,Births,51085362,51085362,51085362
-1970,LAC,Past,Births,53715653,53715653,53715653
-1975,LAC,Past,Births,56750224,56750224,56750224
-1980,LAC,Past,Births,59216520,59216520,59216520
-1985,LAC,Past,Births,60151953,60151953,60151953
-1990,LAC,Past,Births,59914133,59914133,59914133
-1995,LAC,Past,Births,59033296,59033296,59033296
-2000,LAC,Past,Births,56824940,56824940,56824940
-2005,LAC,Past,Births,54885196,54885196,54885196
-2010,LAC,Past,Births,53911125,53911125,53911125
-2015,LAC,Past,Births,51722485,51722485,51722485
-2020,LAC,Past,Births,48310347,48310347,48310347
-2025,LAC,Future,Births,47127227,38262605,55989047
-2030,LAC,Future,Births,46017394,34146318,57880914
-2035,LAC,Future,Births,44542774,31845695,57266989
-2040,LAC,Future,Births,42718241,29900466,55968827
-2045,LAC,Future,Births,41102437,27593746,55982852
-2050,LAC,Future,Births,39472808,24826299,56818862
-2055,LAC,Future,Births,37975506,22049973,58001903
-2060,LAC,Future,Births,36671411,19699888,58971308
-2065,LAC,Future,Births,35322567,17854230,59119014
-2070,LAC,Future,Births,33997787,16411279,58929184
-2075,LAC,Future,Births,32646240,15031495,58893467
-2080,LAC,Future,Births,31389527,13627821,59383751
-2085,LAC,Future,Births,30250480,12251867,60213428
-2090,LAC,Future,Births,29118333,10961148,60876946
-2095,LAC,Future,Births,28050579,7940465,61293987
-2100,LAC,Future,Births,0,0,0
-1950,LAC,Past,Migration+,0,0,0
-1955,LAC,Past,Migration+,0,0,0
-1960,LAC,Past,Migration+,0,0,0
-1965,LAC,Past,Migration+,0,0,0
-1970,LAC,Past,Migration+,0,0,0
-1975,LAC,Past,Migration+,0,0,0
-1980,LAC,Past,Migration+,0,0,0
-1985,LAC,Past,Migration+,0,0,0
-1990,LAC,Past,Migration+,0,0,0
-1995,LAC,Past,Migration+,0,0,0
-2000,LAC,Past,Migration+,0,0,0
-2005,LAC,Past,Migration+,0,0,0
-2010,LAC,Past,Migration+,0,0,0
-2015,LAC,Past,Migration+,0,0,0
-2020,LAC,Past,Migration+,0,0,0
-2025,LAC,Future,Migration+,0,0,0
-2030,LAC,Future,Migration+,0,0,0
-2035,LAC,Future,Migration+,0,0,0
-2040,LAC,Future,Migration+,0,0,0
-2045,LAC,Future,Migration+,0,0,0
-2050,LAC,Future,Migration+,0,0,0
-2055,LAC,Future,Migration+,0,0,0
-2060,LAC,Future,Migration+,0,0,0
-2065,LAC,Future,Migration+,0,0,0
-2070,LAC,Future,Migration+,0,0,0
-2075,LAC,Future,Migration+,0,0,0
-2080,LAC,Future,Migration+,0,0,0
-2085,LAC,Future,Migration+,0,0,0
-2090,LAC,Future,Migration+,0,0,0
-2095,LAC,Future,Migration+,0,0,0
-2100,LAC,Future,Migration+,0,0,0
+1950,Sourthern America,Past,Migration-,-742671,-742671,-742671
+1955,Sourthern America,Past,Migration-,-1439380,-1439380,-1439380
+1960,Sourthern America,Past,Migration-,-1434477,-1434477,-1434477
+1965,Sourthern America,Past,Migration-,-1922969,-1922969,-1922969
+1970,Sourthern America,Past,Migration-,-2420439,-2420439,-2420439
+1975,Sourthern America,Past,Migration-,-2504474,-2504474,-2504474
+1980,Sourthern America,Past,Migration-,-4102634,-4102634,-4102634
+1985,Sourthern America,Past,Migration-,-4832423,-4832423,-4832423
+1990,Sourthern America,Past,Migration-,-3673510,-3673510,-3673510
+1995,Sourthern America,Past,Migration-,-4098407,-4098407,-4098407
+2000,Sourthern America,Past,Migration-,-4826168,-4826168,-4826168
+2005,Sourthern America,Past,Migration-,-5092848,-5092848,-5092848
+2010,Sourthern America,Past,Migration-,-2633466,-2633466,-2633466
+2015,Sourthern America,Past,Migration-,-1631231,-1631231,-1631231
+2020,Sourthern America,Past,Migration-,-927923,-927923,-927923
+2025,Sourthern America,Future,Migration-,-690956,-690919,-690950
+2030,Sourthern America,Future,Migration-,-954581,-954580,-954632
+2035,Sourthern America,Future,Migration-,-1025542,-1025572,-1025605
+2040,Sourthern America,Future,Migration-,-1000301,-1000282,-1000328
+2045,Sourthern America,Future,Migration-,-983317,-983277,-983345
+2050,Sourthern America,Future,Migration-,-981430,-981359,-981483
+2055,Sourthern America,Future,Migration-,-981371,-981361,-981550
+2060,Sourthern America,Future,Migration-,-981416,-981387,-981552
+2065,Sourthern America,Future,Migration-,-981502,-981582,-981488
+2070,Sourthern America,Future,Migration-,-981377,-981446,-981362
+2075,Sourthern America,Future,Migration-,-981377,-981495,-981400
+2080,Sourthern America,Future,Migration-,-981328,-981377,-981294
+2085,Sourthern America,Future,Migration-,-981554,-981616,-981493
+2090,Sourthern America,Future,Migration-,-981379,-965447,-981414
+2095,Sourthern America,Future,Migration-,-981460,989818,-981342
+2100,Sourthern America,Future,Migration-,0,0,0
+1950,Sourthern America,Past,Deaths,-14628237,-14628237,-14628237
+1955,Sourthern America,Past,Deaths,-14587128,-14587128,-14587128
+1960,Sourthern America,Past,Deaths,-14655178,-14655178,-14655178
+1965,Sourthern America,Past,Deaths,-14856642,-14856642,-14856642
+1970,Sourthern America,Past,Deaths,-15050078,-15050078,-15050078
+1975,Sourthern America,Past,Deaths,-15155313,-15155313,-15155313
+1980,Sourthern America,Past,Deaths,-15315388,-15315388,-15315388
+1985,Sourthern America,Past,Deaths,-15081203,-15081203,-15081203
+1990,Sourthern America,Past,Deaths,-15210030,-15210030,-15210030
+1995,Sourthern America,Past,Deaths,-15579005,-15579005,-15579005
+2000,Sourthern America,Past,Deaths,-16182237,-16182237,-16182237
+2005,Sourthern America,Past,Deaths,-17115729,-17115729,-17115729
+2010,Sourthern America,Past,Deaths,-18612149,-18612149,-18612149
+2015,Sourthern America,Past,Deaths,-20496661,-20496661,-20496661
+2020,Sourthern America,Past,Deaths,-24464746,-24464746,-24464746
+2025,Sourthern America,Future,Deaths,-23397731,-23294632,-23500859
+2030,Sourthern America,Future,Deaths,-25552640,-25422773,-25682450
+2035,Sourthern America,Future,Deaths,-27978638,-27843050,-28114490
+2040,Sourthern America,Future,Deaths,-30550301,-30407669,-30696062
+2045,Sourthern America,Future,Deaths,-33100464,-32935501,-33274645
+2050,Sourthern America,Future,Deaths,-35485715,-35289966,-35698390
+2055,Sourthern America,Future,Deaths,-37705768,-37475822,-37959972
+2060,Sourthern America,Future,Deaths,-39812312,-39545687,-40110260
+2065,Sourthern America,Future,Deaths,-41813470,-41502934,-42162249
+2070,Sourthern America,Future,Deaths,-43542448,-43173851,-43958111
+2075,Sourthern America,Future,Deaths,-44811331,-44360637,-45320054
+2080,Sourthern America,Future,Deaths,-45542546,-44974802,-46182135
+2085,Sourthern America,Future,Deaths,-45735852,-45001807,-46557694
+2090,Sourthern America,Future,Deaths,-45431641,-44449172,-46520600
+2095,Sourthern America,Future,Deaths,-44737802,-43366669,-46238288
+2100,Sourthern America,Future,Deaths,0,0,0
+1950,Sourthern America,Past,Population,166137383,166137383,166137383
+1955,Sourthern America,Past,Population,189384027,189384027,189384027
+1960,Sourthern America,Past,Population,216712725,216712725,216712725
+1965,Sourthern America,Past,Population,248706117,248706117,248706117
+1970,Sourthern America,Past,Population,283011868,283011868,283011868
+1975,Sourthern America,Past,Population,319257004,319257004,319257004
+1980,Sourthern America,Past,Population,358347441,358347441,358347441
+1985,Sourthern America,Past,Population,398145939,398145939,398145939
+1990,Sourthern America,Past,Population,438384266,438384266,438384266
+1995,Sourthern America,Past,Population,479414859,479414859,479414859
+2000,Sourthern America,Past,Population,518770743,518770743,518770743
+2005,Sourthern America,Past,Population,554587278,554587278,554587278
+2010,Sourthern America,Past,Population,587263897,587263897,587263897
+2015,Sourthern America,Past,Population,619929407,619929407,619929407
+2020,Sourthern America,Past,Population,649524000,649524000,649524000
+2025,Sourthern America,Future,Population,672441678,668571985,676311207
+2030,Sourthern America,Future,Population,695480218,682849039,708108445
+2035,Sourthern America,Future,Population,714990391,690618004,739352277
+2040,Sourthern America,Future,Population,730528985,693595077,767479171
+2045,Sourthern America,Future,Population,741696624,692087592,791751608
+2050,Sourthern America,Future,Population,748715280,685762560,813476470
+2055,Sourthern America,Future,Population,751720943,674317534,833615459
+2060,Sourthern America,Future,Population,751009310,657910324,852675840
+2065,Sourthern America,Future,Population,746886993,637083138,870555336
+2070,Sourthern America,Future,Population,739414588,612452852,886530613
+2075,Sourthern America,Future,Population,728888550,584708834,900520324
+2080,Sourthern America,Future,Population,715742082,554398197,913112337
+2085,Sourthern America,Future,Population,700607735,522069839,925332659
+2090,Sourthern America,Future,Population,684140809,488338283,938006900
+2095,Sourthern America,Future,Population,666846122,453884812,951381832
+2100,Sourthern America,Future,Population,649177439,419448426,965456189
+1950,Sourthern America,Past,Births,38617552,38617552,38617552
+1955,Sourthern America,Past,Births,43355206,43355206,43355206
+1960,Sourthern America,Past,Births,48083047,48083047,48083047
+1965,Sourthern America,Past,Births,51085362,51085362,51085362
+1970,Sourthern America,Past,Births,53715653,53715653,53715653
+1975,Sourthern America,Past,Births,56750224,56750224,56750224
+1980,Sourthern America,Past,Births,59216520,59216520,59216520
+1985,Sourthern America,Past,Births,60151953,60151953,60151953
+1990,Sourthern America,Past,Births,59914133,59914133,59914133
+1995,Sourthern America,Past,Births,59033296,59033296,59033296
+2000,Sourthern America,Past,Births,56824940,56824940,56824940
+2005,Sourthern America,Past,Births,54885196,54885196,54885196
+2010,Sourthern America,Past,Births,53911125,53911125,53911125
+2015,Sourthern America,Past,Births,51722485,51722485,51722485
+2020,Sourthern America,Past,Births,48310347,48310347,48310347
+2025,Sourthern America,Future,Births,47127227,38262605,55989047
+2030,Sourthern America,Future,Births,46017394,34146318,57880914
+2035,Sourthern America,Future,Births,44542774,31845695,57266989
+2040,Sourthern America,Future,Births,42718241,29900466,55968827
+2045,Sourthern America,Future,Births,41102437,27593746,55982852
+2050,Sourthern America,Future,Births,39472808,24826299,56818862
+2055,Sourthern America,Future,Births,37975506,22049973,58001903
+2060,Sourthern America,Future,Births,36671411,19699888,58971308
+2065,Sourthern America,Future,Births,35322567,17854230,59119014
+2070,Sourthern America,Future,Births,33997787,16411279,58929184
+2075,Sourthern America,Future,Births,32646240,15031495,58893467
+2080,Sourthern America,Future,Births,31389527,13627821,59383751
+2085,Sourthern America,Future,Births,30250480,12251867,60213428
+2090,Sourthern America,Future,Births,29118333,10961148,60876946
+2095,Sourthern America,Future,Births,28050579,7940465,61293987
+2100,Sourthern America,Future,Births,0,0,0
+1950,Sourthern America,Past,Migration+,0,0,0
+1955,Sourthern America,Past,Migration+,0,0,0
+1960,Sourthern America,Past,Migration+,0,0,0
+1965,Sourthern America,Past,Migration+,0,0,0
+1970,Sourthern America,Past,Migration+,0,0,0
+1975,Sourthern America,Past,Migration+,0,0,0
+1980,Sourthern America,Past,Migration+,0,0,0
+1985,Sourthern America,Past,Migration+,0,0,0
+1990,Sourthern America,Past,Migration+,0,0,0
+1995,Sourthern America,Past,Migration+,0,0,0
+2000,Sourthern America,Past,Migration+,0,0,0
+2005,Sourthern America,Past,Migration+,0,0,0
+2010,Sourthern America,Past,Migration+,0,0,0
+2015,Sourthern America,Past,Migration+,0,0,0
+2020,Sourthern America,Past,Migration+,0,0,0
+2025,Sourthern America,Future,Migration+,0,0,0
+2030,Sourthern America,Future,Migration+,0,0,0
+2035,Sourthern America,Future,Migration+,0,0,0
+2040,Sourthern America,Future,Migration+,0,0,0
+2045,Sourthern America,Future,Migration+,0,0,0
+2050,Sourthern America,Future,Migration+,0,0,0
+2055,Sourthern America,Future,Migration+,0,0,0
+2060,Sourthern America,Future,Migration+,0,0,0
+2065,Sourthern America,Future,Migration+,0,0,0
+2070,Sourthern America,Future,Migration+,0,0,0
+2075,Sourthern America,Future,Migration+,0,0,0
+2080,Sourthern America,Future,Migration+,0,0,0
+2085,Sourthern America,Future,Migration+,0,0,0
+2090,Sourthern America,Future,Migration+,0,0,0
+2095,Sourthern America,Future,Migration+,0,0,0
+2100,Sourthern America,Future,Migration+,0,0,0
 1950,Northern America,Past,Migration-,0,0,0
 1955,Northern America,Past,Migration-,0,0,0
 1960,Northern America,Past,Migration-,0,0,0
