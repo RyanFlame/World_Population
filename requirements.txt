@@ -34,5 +34,4 @@ streamlit_option_menu
 streamlit_shadcn_ui
 thread
 tornado
-urllib3_secure_extra
 xmlrpclib
