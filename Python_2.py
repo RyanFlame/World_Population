@@ -95,31 +95,7 @@ def make_choropleth(input_df, selected_year, selected_continent, selected_countr
     else:
         max_population = max(input_df.population)
     
-    # Create the choropleth map only if there is data to plot
-    if not input_df.empty:
-            choropleth = px.choropleth(input_df,
-                locations='country',
-                color='population',
-                locationmode="country names",
-                color_continuous_scale=selected_color_theme,
-                range_color=(0, max(input_df.population)),
-                scope=scope,  # Set scope dynamically
-                labels={'population': 'Population'}
-                                  )
-            choropleth.update_layout(
-                template='plotly_dark',
-                plot_bgcolor='rgba(0, 0, 0, 0)',
-                paper_bgcolor='rgba(0, 0, 0, 0)',
-                margin=dict(l=0, r=0, t=0, b=0),
-                height= 280
-            )
-            return choropleth
-    else:
-        # Return None or an appropriate message if there is no data to plot
-        st.error('No data available to plot for the selected options.')
-        return None
 
-#######################
 
 # Horizontal menu
 selected2 = option_menu(None, ["Home", "Dashboard", "Dataset"], 
@@ -128,6 +104,19 @@ selected2 = option_menu(None, ["Home", "Dashboard", "Dataset"],
 
 if selected2 == "Home":
         
+        colored_header(
+            label="🗝️ Welcome to our project",
+            description="About this Web Application",
+            color_name="blue-70",)
+        left_column, right_column = st.columns(2)
+        with left_column:
+            st.lottie("https://lottie.host/a007d4b2-dcb3-42b9-a81f-8974176f0b70/M8B2rnF26Q.json")
+
+        with right_column:
+            annotated_text("Have you ever wondered how our planet's population is constantly shifting and evolving? This interactive web app takes you on a captivating journey to explore the fascinating world of demographics.")
+            annotated_text("Imagine a mesmerizing animated map pulsating with life, visualizing population growth and movement across continents. Or, dive into captivating, dynamic graphs that unveil hidden stories within the data. Our intuitive dashboard acts as your personal guide, offering clear explanations alongside these captivating visuals.")
+            annotated_text("With just a few clicks or swipes, you can delve deeper.  Analyze year-over-year population surges, witness geographical distribution shifts unfold in real-time animations, and uncover the fascinating stories these trends reveal.")
+            annotated_text("The power of knowledge is at your fingertips.  Make informed decisions based on these valuable insights and gain a deeper understanding of the ever-changing population landscape that shapes our world.")
         
         colored_header(
             label="🧭 Overview",
@@ -135,11 +124,13 @@ if selected2 == "Home":
             color_name="light-blue-70",)
         left_column, right_column = st.columns(2)
         with left_column:
-            annotated_text("The world population dataset provides detailed data on population counts, growth rates, fertility rates, and urbanization levels from 1970 to 2050. It offers insights into global demographic trends, allowing for analysis at national and global levels. This data can help politicians make informed decisions about resource distribution for infrastructure development, education, and healthcare. It also provides insights into population density, ensuring long-term resource management and infrastructure planning. The dataset goes beyond just statistics, offering a wealth of information to address global concerns and create a more affluent future for everyone.")
+            annotated_text("The world population dataset is a treasure trove of information, offering a comprehensive picture of global demographics from 1970 to 2050. It dives deep into population counts, growth rates, fertility trends, and the rise of urbanization. This rich data allows us to analyze these trends not only on a global scale, but also for individual nations.")
+            annotated_text("By providing insights into population distribution and density, this dataset empowers policymakers to make informed decisions about resource allocation. Imagine better infrastructure development, more effective education systems, and well-equipped healthcare services – all strategically planned based on population needs. The dataset's value extends far beyond raw statistics. It equips us to address critical global challenges and pave the way for a more prosperous future for all.")
 
         with right_column:
             st.lottie("https://lottie.host/4ff32b59-3137-42c6-ae6f-6831e22604e7/AM5TmClSle.json")
-        
+
+
         st.sidebar.write("# Welcome to Our Python 2 Project 👋")
         st.sidebar.write("""This project aims to create an interactive dashboard that visually presents and generates various analyses from our first Python module.""")
         
@@ -153,9 +144,6 @@ if selected2 == "Home":
         link2 = "Python 1 [Project](https://drive.google.com/drive/u/0/folders/1-qxb59BRJ1NNmQvJi99cgOFCYWeJzBkm?lfhs=2)"
         st.sidebar.write(link2, unsafe_allow_html=True)
 
-    # Render the map
-        r = pdk.Deck(layers=[layer], initial_view_state=view_state)
-        st.pydeck_chart(r)
 
         pass
 
@@ -651,7 +639,7 @@ elif selected2 == "Dataset":
         colored_header(
             label="World Population Dataset",
             description="Select the boxes below to see our Dataset👇",
-            color_name="light-blue-70",)
+            color_name="blue-green-70",)
         # Display the DataFrame as a table in the app
         choice = st.selectbox('Please select the datasets you want to learn about:',('Main dataset','Reshaped dataset - Dashboard Data','Additional dataset - Population Story Tellings Data'))
         st.caption(f"You selected: {choice}")   
