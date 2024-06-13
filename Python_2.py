@@ -125,7 +125,7 @@ if selected2 == "Home":
         left_column, right_column = st.columns(2)
         with left_column:
             annotated_text("The world population dataset is a treasure trove of information, offering a comprehensive picture of global demographics from 1970 to 2050. It dives deep into population counts, growth rates, fertility trends, and the rise of urbanization. This rich data allows us to analyze these trends not only on a global scale, but also for individual nations.")
-            annotated_text("By providing insights into population distribution and density, this dataset empowers policymakers to make informed decisions about resource allocation. Imagine better infrastructure development, more effective education systems, and well-equipped healthcare services – all strategically planned based on population needs. The dataset's value extends far beyond raw statistics. It equips us to address critical global challenges and pave the way for a more prosperous future for all.")
+            annotated_text("By providing insights into population distribution and density, this dataset empowers policymakers to make informed decisions about resource allocation. This dataset's value extends far beyond raw statistics. It equips us to address critical global challenges and pave the way for a more prosperous future for all.")
 
         with right_column:
             st.lottie("https://lottie.host/4ff32b59-3137-42c6-ae6f-6831e22604e7/AM5TmClSle.json")
