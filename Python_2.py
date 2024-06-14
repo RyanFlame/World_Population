@@ -37,44 +37,6 @@ value_vars = ['1970', '1980', '1990', '2000', '2010', '2020', '2022', '2030', '2
 # Melt the DataFrame
 df_reshaped = merged_df.melt(id_vars=id_vars, value_vars=value_vars, var_name='year', value_name='population')
 
-
-
-#######################
-# Plots
-
-# Aggregate growth_rate by country
-map_growth = df_reshaped.groupby('country')['year'].sum().reset_index()
-
-# Rename columns
-map_growth.rename(columns={'year': 'Population_2023'}, inplace=True)
-
-# Load a world map shapefile
-world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
-
-# Merge your data with the world map
-map_growth_join = world.merge(map_growth, left_on='name', right_on='country', how='left')
-
-# Convert GeoDataFrame to GeoJSON so it can be plotted on a map
-map_growth_join['geometry'] = map_growth_join['geometry'].to_crs(epsg=4326).simplify(0.05).buffer(0.1)
-json = map_growth_join.to_json()
-
-# Create a map layer
-layer = pdk.Layer(
-    'GeoJsonLayer',
-    json,
-    opacity=0.8,
-    stroked=False,
-    filled=True,
-    extruded=True,
-    wireframe=True,
-    get_elevation='properties.Population_2023 / 100',
-    get_fill_color='[255, 255, properties.Population_2023 / 100]',
-    get_line_color=[255, 255, 255],
-)
-
-# Set the viewport location
-view_state = pdk.ViewState(latitude=37.7749295, longitude=-122.4194155, zoom=10, bearing=0, pitch=45)
-
 ################################
 def make_choropleth(input_df, selected_year, selected_continent, selected_country, input_color_theme):
     # Filter the data based on the selected year, continent, and country
@@ -95,7 +57,31 @@ def make_choropleth(input_df, selected_year, selected_continent, selected_countr
     else:
         max_population = max(input_df.population)
     
+    # Create the choropleth map only if there is data to plot
+    if not input_df.empty:
+            choropleth = px.choropleth(input_df,
+                locations='country',
+                color='population',
+                locationmode="country names",
+                color_continuous_scale=selected_color_theme,
+                range_color=(0, max(input_df.population)),
+                scope=scope,  # Set scope dynamically
+                labels={'population': 'Population'}
+                                  )
+            choropleth.update_layout(
+                template='plotly_dark',
+                plot_bgcolor='rgba(0, 0, 0, 0)',
+                paper_bgcolor='rgba(0, 0, 0, 0)',
+                margin=dict(l=0, r=0, t=0, b=0),
+                height= 280
+            )
+            return choropleth
+    else:
+        # Return None or an appropriate message if there is no data to plot
+        st.error('No data available to plot for the selected options.')
+        return None
 
+#######################
 
 # Horizontal menu
 selected2 = option_menu(None, ["Home", "Dashboard", "Dataset"], 
@@ -103,10 +89,9 @@ selected2 = option_menu(None, ["Home", "Dashboard", "Dataset"],
     menu_icon="cast", default_index=0, orientation="horizontal")
 
 if selected2 == "Home":
-        
         colored_header(
-            label="🗝️ Welcome to our project",
-            description="About this Web Application",
+            label="🗝️ Welcome to our  Web Application",
+            description="About this Web App",
             color_name="blue-70",)
         left_column, right_column = st.columns(2)
         with left_column:
@@ -131,6 +116,7 @@ if selected2 == "Home":
             st.lottie("https://lottie.host/4ff32b59-3137-42c6-ae6f-6831e22604e7/AM5TmClSle.json")
 
 
+        
         st.sidebar.write("# Welcome to Our Python 2 Project 👋")
         st.sidebar.write("""This project aims to create an interactive dashboard that visually presents and generates various analyses from our first Python module.""")
         
@@ -143,7 +129,6 @@ if selected2 == "Home":
         # Link 2: Python 1 Project
         link2 = "Python 1 [Project](https://drive.google.com/drive/u/0/folders/1-qxb59BRJ1NNmQvJi99cgOFCYWeJzBkm?lfhs=2)"
         st.sidebar.write(link2, unsafe_allow_html=True)
-
 
         pass
 
