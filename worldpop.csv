@@ -22,14 +22,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Africa,Future,Migration-,-1961053,-1960959,-1960829
 2055,Africa,Future,Migration-,-1961192,-1961156,-1961090
 2060,Africa,Future,Migration-,-1960909,-1961004,-1960904
-2065,Africa,Future,Migration-,-1960997,-1961027,-1961104
-2070,Africa,Future,Migration-,-1961115,-1960991,-1961039
-2075,Africa,Future,Migration-,-1960998,-1960973,-1961050
-2080,Africa,Future,Migration-,-1961238,-1961013,-1961079
-2085,Africa,Future,Migration-,-1961045,-1961078,-1961123
-2090,Africa,Future,Migration-,-1961029,-1961079,-1961105
-2095,Africa,Future,Migration-,-1961030,-1961193,-1961057
-2100,Africa,Future,Migration-,0,0,0
 1950,Africa,Past,Deaths,-30771886,-30771886,-30771886
 1955,Africa,Past,Deaths,-32074028,-32074028,-32074028
 1960,Africa,Past,Deaths,-33332194,-33332194,-33332194
@@ -53,14 +45,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Africa,Future,Deaths,-92550554,-88914471,-96430445
 2055,Africa,Future,Deaths,-101015587,-96710095,-105716459
 2060,Africa,Future,Deaths,-110214515,-105220698,-115764099
-2065,Africa,Future,Deaths,-120083139,-114362236,-126536949
-2070,Africa,Future,Deaths,-130541401,-123992472,-138037239
-2075,Africa,Future,Deaths,-141472151,-133897651,-150254681
-2080,Africa,Future,Deaths,-152804857,-143912418,-163213881
-2085,Africa,Future,Deaths,-164423318,-153782831,-176930763
-2090,Africa,Future,Deaths,-176179017,-163189753,-191430378
-2095,Africa,Future,Deaths,-187692714,-171530483,-206573964
-2100,Africa,Future,Deaths,0,0,0
 1950,Africa,Past,Population,225120311,225120311,225120311
 1955,Africa,Past,Population,250996982,250996982,250996982
 1960,Africa,Past,Population,280903431,280903431,280903431
@@ -84,14 +68,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Africa,Future,Population,2465754850,2275493651,2660501419
 2055,Africa,Future,Population,2657438687,2405537002,2920675209
 2060,Africa,Future,Population,2842982261,2519169509,3189149026
-2065,Africa,Future,Population,3020948829,2615958788,3463661047
-2070,Africa,Future,Population,3189577699,2695581910,3741479996
-2075,Africa,Future,Population,3346895592,2757114681,4020682915
-2080,Africa,Future,Population,3490825089,2799119255,4299942287
-2085,Africa,Future,Population,3620869142,2821377266,4579662503
-2090,Africa,Future,Population,3735552232,2823393032,4857991830
-2095,Africa,Future,Population,3834301844,2806026385,5133201589
-2100,Africa,Future,Population,3917076934,2771012290,5403837113
 1950,Africa,Past,Births,57247566,57247566,57247566
 1955,Africa,Past,Births,63585956,63585956,63585956
 1960,Africa,Past,Births,71001135,71001135,71001135
@@ -115,14 +91,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Africa,Future,Births,286195444,220918781,358565064
 2055,Africa,Future,Births,288520353,212303758,376151366
 2060,Africa,Future,Births,290141992,203970981,392237024
-2065,Africa,Future,Births,290673006,195946385,406317002
-2070,Africa,Future,Births,289820409,187486234,419201197
-2075,Africa,Future,Births,287362646,177863198,431475103
-2080,Africa,Future,Births,284810148,168131442,444895176
-2085,Africa,Future,Births,281067453,157759675,457221213
-2090,Africa,Future,Births,276889658,147784185,468601242
-2095,Africa,Future,Births,272428834,138477581,479170545
-2100,Africa,Future,Births,0,0,0
 1950,Africa,Past,Migration+,0,0,0
 1955,Africa,Past,Migration+,0,0,0
 1960,Africa,Past,Migration+,0,0,0
@@ -146,14 +114,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Africa,Future,Migration+,0,0,0
 2055,Africa,Future,Migration+,0,0,0
 2060,Africa,Future,Migration+,0,0,0
-2065,Africa,Future,Migration+,0,0,0
-2070,Africa,Future,Migration+,0,0,0
-2075,Africa,Future,Migration+,0,0,0
-2080,Africa,Future,Migration+,0,0,0
-2085,Africa,Future,Migration+,0,0,0
-2090,Africa,Future,Migration+,0,0,0
-2095,Africa,Future,Migration+,0,0,0
-2100,Africa,Future,Migration+,0,0,0
 1950,Asia,Past,Migration-,0,0,0
 1955,Asia,Past,Migration-,0,0,0
 1960,Asia,Past,Migration-,-249542,-249542,-249542
@@ -177,14 +137,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Asia,Future,Migration-,-8231529,-8231550,-8231380
 2055,Asia,Future,Migration-,-8231450,-8231522,-8231392
 2060,Asia,Future,Migration-,-8231461,-8231656,-8231435
-2065,Asia,Future,Migration-,-8231204,-8231444,-8231197
-2070,Asia,Future,Migration-,-8231520,-8231508,-8231353
-2075,Asia,Future,Migration-,-8231528,-8231598,-8231316
-2080,Asia,Future,Migration-,-8231409,-8231496,-8231262
-2085,Asia,Future,Migration-,-8231664,-8231616,-8231272
-2090,Asia,Future,Migration-,-8231566,-8231508,-8231504
-2095,Asia,Future,Migration-,-8231631,-8231712,-8231347
-2100,Asia,Future,Migration-,0,0,0
 1950,Asia,Past,Deaths,-153720256,-153720256,-153720256
 1955,Asia,Past,Deaths,-153875191,-153875191,-153875191
 1960,Asia,Past,Deaths,-158197704,-158197704,-158197704
@@ -208,14 +160,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Asia,Future,Deaths,-268541041,-266699710,-270547148
 2055,Asia,Future,Deaths,-284473471,-282383977,-286821102
 2060,Asia,Future,Deaths,-297304020,-294950751,-299982313
-2065,Asia,Future,Deaths,-306171376,-303504686,-309213836
-2070,Asia,Future,Deaths,-312868746,-309753317,-316422935
-2075,Asia,Future,Deaths,-318360229,-314565987,-322685561
-2080,Asia,Future,Deaths,-320822979,-316037790,-326256987
-2085,Asia,Future,Deaths,-318454657,-312243898,-325445482
-2090,Asia,Future,Deaths,-314033281,-305721365,-323267662
-2095,Asia,Future,Deaths,-310790165,-299293732,-323377580
-2100,Asia,Future,Deaths,0,0,0
 1950,Asia,Past,Population,1365952997,1365952997,1365952997
 1955,Asia,Past,Population,1515565885,1515565885,1515565885
 1960,Asia,Past,Population,1687109645,1687109645,1687109645
@@ -239,14 +183,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Asia,Future,Population,5290144616,4867038937,5720320283
 2055,Asia,Future,Population,5305546526,4784226415,5850377143
 2060,Asia,Future,Population,5292608743,4663091417,5972337648
-2065,Asia,Future,Population,5258873985,4512725263,6089810407
-2070,Asia,Future,Population,5210000263,4342755746,6202483063
-2075,Asia,Future,Population,5147795514,4157848577,6309164875
-2080,Asia,Future,Population,5071617956,3958435073,6411183620
-2085,Asia,Future,Population,4983305906,3746305972,6513844347
-2090,Asia,Future,Population,4887774117,3526432433,6622706030
-2095,Asia,Future,Population,4788187592,3302890046,6738364707
-2100,Asia,Future,Population,4684822376,3077779217,6857423247
 1950,Asia,Past,Births,301972190,301972190,301972190
 1955,Asia,Past,Births,324347720,324347720,324347720
 1960,Asia,Past,Births,350274558,350274558,350274558
@@ -270,14 +206,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Asia,Future,Births,292174480,192118738,408835388
 2055,Asia,Future,Births,279767138,169480501,417012999
 2060,Asia,Future,Births,271800723,152816253,425686507
-2065,Asia,Future,Births,265528858,141766613,430117689
-2070,Asia,Future,Births,258895517,133077656,431336100
-2075,Asia,Future,Births,250414199,123384081,432935622
-2080,Asia,Future,Births,240742338,112140185,437148976
-2085,Asia,Future,Births,231154532,100601975,442538437
-2090,Asia,Future,Births,222678322,90410486,447157843
-2095,Asia,Future,Births,215656580,82414615,450667467
-2100,Asia,Future,Births,0,0,0
 1950,Asia,Past,Migration+,1360954,1360954,1360954
 1955,Asia,Past,Migration+,1071231,1071231,1071231
 1960,Asia,Past,Migration+,0,0,0
@@ -301,14 +229,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Asia,Future,Migration+,0,0,0
 2055,Asia,Future,Migration+,0,0,0
 2060,Asia,Future,Migration+,0,0,0
-2065,Asia,Future,Migration+,0,0,0
-2070,Asia,Future,Migration+,0,0,0
-2075,Asia,Future,Migration+,0,0,0
-2080,Asia,Future,Migration+,0,0,0
-2085,Asia,Future,Migration+,0,0,0
-2090,Asia,Future,Migration+,0,0,0
-2095,Asia,Future,Migration+,0,0,0
-2100,Asia,Future,Migration+,0,0,0
 1950,Europe,Past,Migration-,-2927471,-2927471,-2927471
 1955,Europe,Past,Migration-,-2320190,-2320190,-2320190
 1960,Europe,Past,Migration-,-460959,-460959,-460959
@@ -332,14 +252,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Europe,Future,Migration-,0,0,0
 2055,Europe,Future,Migration-,0,0,0
 2060,Europe,Future,Migration-,0,0,0
-2065,Europe,Future,Migration-,0,0,0
-2070,Europe,Future,Migration-,0,0,0
-2075,Europe,Future,Migration-,0,0,0
-2080,Europe,Future,Migration-,0,0,0
-2085,Europe,Future,Migration-,0,0,0
-2090,Europe,Future,Migration-,0,0,0
-2095,Europe,Future,Migration-,0,0,0
-2100,Europe,Future,Migration-,0,0,0
 1950,Europe,Past,Deaths,-31641744,-31641744,-31641744
 1955,Europe,Past,Deaths,-29313641,-29313641,-29313641
 1960,Europe,Past,Deaths,-29431559,-29431559,-29431559
@@ -363,14 +275,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Europe,Future,Deaths,-46826816,-46775539,-46880426
 2055,Europe,Future,Deaths,-46893333,-46825168,-46965948
 2060,Europe,Future,Deaths,-46452253,-46360348,-46550736
-2065,Europe,Future,Deaths,-45599214,-45474114,-45732223
-2070,Europe,Future,Deaths,-44516733,-44344785,-44698025
-2075,Europe,Future,Deaths,-43173823,-42934838,-43424885
-2080,Europe,Future,Deaths,-41525127,-41189899,-41876512
-2085,Europe,Future,Deaths,-39749746,-39280186,-40241650
-2090,Europe,Future,Deaths,-38293457,-37649119,-38968847
-2095,Europe,Future,Deaths,-37495678,-36627016,-38407185
-2100,Europe,Future,Deaths,0,0,0
 1950,Europe,Past,Population,547304279,547304279,547304279
 1955,Europe,Past,Population,573464682,573464682,573464682
 1960,Europe,Past,Population,602648649,602648649,602648649
@@ -394,14 +298,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Europe,Future,Population,704171538,653710917,755084731
 2055,Europe,Future,Population,691708083,630377233,754789118
 2060,Europe,Future,Population,677689169,604428959,755264587
-2065,Europe,Future,Population,663330814,577079792,757660257
-2070,Europe,Future,Population,649626629,549729162,762145802
-2075,Europe,Future,Population,636988568,523192906,768394730
-2080,Europe,Future,Population,625394563,497673951,776246347
-2085,Europe,Future,Population,614732992,473096697,785984994
-2090,Europe,Future,Population,604963806,449348236,798074123
-2095,Europe,Future,Population,595955377,426229490,812573797
-2100,Europe,Future,Population,587361537,403449835,828866454
 1950,Europe,Past,Births,60729618,60729618,60729618
 1955,Europe,Past,Births,60817798,60817798,60817798
 1960,Europe,Past,Births,58995097,58995097,58995097
@@ -425,14 +321,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Europe,Future,Births,30300154,19378745,42521450
 2055,Europe,Future,Births,28811310,16813843,43378142
 2060,Europe,Future,Births,28030769,14948091,44883170
-2065,Europe,Future,Births,27831997,14060506,46154594
-2070,Europe,Future,Births,27815527,13745488,46883791
-2075,Europe,Future,Births,27516795,13353046,47213436
-2080,Europe,Future,Births,26800555,12549754,47552047
-2085,Europe,Future,Births,25917592,11469007,48267739
-2090,Europe,Future,Births,25222052,10467732,49405585
-2095,Europe,Future,Births,24838869,9779927,50636913
-2100,Europe,Future,Births,0,0,0
 1950,Europe,Past,Migration+,0,0,0
 1955,Europe,Past,Migration+,0,0,0
 1960,Europe,Past,Migration+,0,0,0
@@ -456,14 +344,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Europe,Future,Migration+,4063207,4063110,4063363
 2055,Europe,Future,Migration+,4063109,4063051,4063275
 2060,Europe,Future,Migration+,4063129,4063090,4063236
-2065,Europe,Future,Migration+,4063032,4062978,4063174
-2070,Europe,Future,Migration+,4063145,4063041,4063162
-2075,Europe,Future,Migration+,4063023,4062837,4063066
-2080,Europe,Future,Migration+,4063001,4062891,4063112
-2085,Europe,Future,Migration+,4062968,4062718,4063040
-2090,Europe,Future,Migration+,4062976,4062641,4062936
-2095,Europe,Future,Migration+,4062969,4067434,4062929
-2100,Europe,Future,Migration+,0,0,0
 1950,Sourthern America,Past,Migration-,-742671,-742671,-742671
 1955,Sourthern America,Past,Migration-,-1439380,-1439380,-1439380
 1960,Sourthern America,Past,Migration-,-1434477,-1434477,-1434477
@@ -487,14 +367,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Sourthern America,Future,Migration-,-981430,-981359,-981483
 2055,Sourthern America,Future,Migration-,-981371,-981361,-981550
 2060,Sourthern America,Future,Migration-,-981416,-981387,-981552
-2065,Sourthern America,Future,Migration-,-981502,-981582,-981488
-2070,Sourthern America,Future,Migration-,-981377,-981446,-981362
-2075,Sourthern America,Future,Migration-,-981377,-981495,-981400
-2080,Sourthern America,Future,Migration-,-981328,-981377,-981294
-2085,Sourthern America,Future,Migration-,-981554,-981616,-981493
-2090,Sourthern America,Future,Migration-,-981379,-965447,-981414
-2095,Sourthern America,Future,Migration-,-981460,989818,-981342
-2100,Sourthern America,Future,Migration-,0,0,0
 1950,Sourthern America,Past,Deaths,-14628237,-14628237,-14628237
 1955,Sourthern America,Past,Deaths,-14587128,-14587128,-14587128
 1960,Sourthern America,Past,Deaths,-14655178,-14655178,-14655178
@@ -518,14 +390,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Sourthern America,Future,Deaths,-35485715,-35289966,-35698390
 2055,Sourthern America,Future,Deaths,-37705768,-37475822,-37959972
 2060,Sourthern America,Future,Deaths,-39812312,-39545687,-40110260
-2065,Sourthern America,Future,Deaths,-41813470,-41502934,-42162249
-2070,Sourthern America,Future,Deaths,-43542448,-43173851,-43958111
-2075,Sourthern America,Future,Deaths,-44811331,-44360637,-45320054
-2080,Sourthern America,Future,Deaths,-45542546,-44974802,-46182135
-2085,Sourthern America,Future,Deaths,-45735852,-45001807,-46557694
-2090,Sourthern America,Future,Deaths,-45431641,-44449172,-46520600
-2095,Sourthern America,Future,Deaths,-44737802,-43366669,-46238288
-2100,Sourthern America,Future,Deaths,0,0,0
 1950,Sourthern America,Past,Population,166137383,166137383,166137383
 1955,Sourthern America,Past,Population,189384027,189384027,189384027
 1960,Sourthern America,Past,Population,216712725,216712725,216712725
@@ -549,14 +413,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Sourthern America,Future,Population,748715280,685762560,813476470
 2055,Sourthern America,Future,Population,751720943,674317534,833615459
 2060,Sourthern America,Future,Population,751009310,657910324,852675840
-2065,Sourthern America,Future,Population,746886993,637083138,870555336
-2070,Sourthern America,Future,Population,739414588,612452852,886530613
-2075,Sourthern America,Future,Population,728888550,584708834,900520324
-2080,Sourthern America,Future,Population,715742082,554398197,913112337
-2085,Sourthern America,Future,Population,700607735,522069839,925332659
-2090,Sourthern America,Future,Population,684140809,488338283,938006900
-2095,Sourthern America,Future,Population,666846122,453884812,951381832
-2100,Sourthern America,Future,Population,649177439,419448426,965456189
 1950,Sourthern America,Past,Births,38617552,38617552,38617552
 1955,Sourthern America,Past,Births,43355206,43355206,43355206
 1960,Sourthern America,Past,Births,48083047,48083047,48083047
@@ -580,14 +436,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Sourthern America,Future,Births,39472808,24826299,56818862
 2055,Sourthern America,Future,Births,37975506,22049973,58001903
 2060,Sourthern America,Future,Births,36671411,19699888,58971308
-2065,Sourthern America,Future,Births,35322567,17854230,59119014
-2070,Sourthern America,Future,Births,33997787,16411279,58929184
-2075,Sourthern America,Future,Births,32646240,15031495,58893467
-2080,Sourthern America,Future,Births,31389527,13627821,59383751
-2085,Sourthern America,Future,Births,30250480,12251867,60213428
-2090,Sourthern America,Future,Births,29118333,10961148,60876946
-2095,Sourthern America,Future,Births,28050579,7940465,61293987
-2100,Sourthern America,Future,Births,0,0,0
 1950,Sourthern America,Past,Migration+,0,0,0
 1955,Sourthern America,Past,Migration+,0,0,0
 1960,Sourthern America,Past,Migration+,0,0,0
@@ -611,14 +459,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Sourthern America,Future,Migration+,0,0,0
 2055,Sourthern America,Future,Migration+,0,0,0
 2060,Sourthern America,Future,Migration+,0,0,0
-2065,Sourthern America,Future,Migration+,0,0,0
-2070,Sourthern America,Future,Migration+,0,0,0
-2075,Sourthern America,Future,Migration+,0,0,0
-2080,Sourthern America,Future,Migration+,0,0,0
-2085,Sourthern America,Future,Migration+,0,0,0
-2090,Sourthern America,Future,Migration+,0,0,0
-2095,Sourthern America,Future,Migration+,0,0,0
-2100,Sourthern America,Future,Migration+,0,0,0
 1950,Northern America,Past,Migration-,0,0,0
 1955,Northern America,Past,Migration-,0,0,0
 1960,Northern America,Past,Migration-,0,0,0
@@ -642,14 +482,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Northern America,Future,Migration-,0,0,0
 2055,Northern America,Future,Migration-,0,0,0
 2060,Northern America,Future,Migration-,0,0,0
-2065,Northern America,Future,Migration-,0,0,0
-2070,Northern America,Future,Migration-,0,0,0
-2075,Northern America,Future,Migration-,0,0,0
-2080,Northern America,Future,Migration-,0,0,0
-2085,Northern America,Future,Migration-,0,0,0
-2090,Northern America,Future,Migration-,0,0,0
-2095,Northern America,Future,Migration-,0,0,0
-2100,Northern America,Future,Migration-,0,0,0
 1950,Northern America,Past,Deaths,-7933004,-7933004,-7933004
 1955,Northern America,Past,Deaths,-8529953,-8529953,-8529953
 1960,Northern America,Past,Deaths,-9297211,-9297211,-9297211
@@ -673,14 +505,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Northern America,Future,Deaths,-23139572,-23074753,-23206711
 2055,Northern America,Future,Deaths,-23272341,-23181448,-23367354
 2060,Northern America,Future,Deaths,-23205152,-23086211,-23330047
-2065,Northern America,Future,Deaths,-23272932,-23125350,-23428392
-2070,Northern America,Future,Deaths,-23668275,-23486934,-23860191
-2075,Northern America,Future,Deaths,-24310586,-24081769,-24554569
-2080,Northern America,Future,Deaths,-24925908,-24628840,-25244959
-2085,Northern America,Future,Deaths,-25327757,-24942672,-25743484
-2090,Northern America,Future,Deaths,-25498671,-25008882,-26028903
-2095,Northern America,Future,Deaths,-25552011,-24931369,-26224084
-2100,Northern America,Future,Deaths,0,0,0
 1950,Northern America,Past,Population,160753800,160753800,160753800
 1955,Northern America,Past,Population,175268610,175268610,175268610
 1960,Northern America,Past,Population,192535185,192535185,192535185
@@ -704,14 +528,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Northern America,Future,Population,421000981,389510007,452826522
 2055,Northern America,Future,Population,424695664,386159034,464445812
 2060,Northern America,Future,Population,428240371,381676900,477665266
-2065,Northern America,Future,Population,432066142,376532881,492859075
-2070,Northern America,Future,Population,436041100,370982433,509268731
-2075,Northern America,Future,Population,439591078,364838188,525764690
-2080,Northern America,Future,Population,442256411,357780194,541834646
-2085,Northern America,Future,Population,444059761,349722527,557886787
-2090,Northern America,Future,Population,445403539,340872605,574794568
-2095,Northern America,Future,Population,446638480,331524435,593050606
-2100,Northern America,Future,Population,447907090,321944997,612527338
 1950,Northern America,Past,Births,20042299,20042299,20042299
 1955,Northern America,Past,Births,21953749,21953749,21953749
 1960,Northern America,Past,Births,21954145,21954145,21954145
@@ -735,14 +551,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Northern America,Future,Births,20450041,13339571,28441794
 2055,Northern America,Future,Births,20432879,12315129,30202638
 2060,Northern America,Future,Births,20646738,11557986,32139684
-2065,Northern America,Future,Births,20863733,11190734,33453884
-2070,Northern America,Future,Births,20834066,10958514,33971991
-2075,Northern America,Future,Births,20591737,10639594,34240385
-2080,Northern America,Future,Births,20345073,10186992,34912950
-2085,Northern America,Future,Births,20287369,9708570,36267087
-2090,Northern America,Future,Births,20349461,9276523,37900783
-2095,Northern America,Future,Births,20436458,8967750,39316644
-2100,Northern America,Future,Births,0,0,0
 1950,Northern America,Past,Migration+,2405515,2405515,2405515
 1955,Northern America,Past,Migration+,3842779,3842779,3842779
 1960,Northern America,Past,Migration+,2960135,2960135,2960135
@@ -766,14 +574,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Northern America,Future,Migration+,6384214,6384209,6384207
 2055,Northern America,Future,Migration+,6384169,6384185,6384170
 2060,Northern America,Future,Migration+,6384185,6384206,6384172
-2065,Northern America,Future,Migration+,6384157,6384168,6384164
-2070,Northern America,Future,Migration+,6384187,6384175,6384159
-2075,Northern America,Future,Migration+,6384182,6384181,6384140
-2080,Northern America,Future,Migration+,6384185,6384181,6384150
-2085,Northern America,Future,Migration+,6384166,6384180,6384178
-2090,Northern America,Future,Migration+,6384151,6384189,6384158
-2095,Northern America,Future,Migration+,6384163,6384181,6384172
-2100,Northern America,Future,Migration+,0,0,0
 1950,Oceania,Past,Migration-,0,0,0
 1955,Oceania,Past,Migration-,0,0,0
 1960,Oceania,Past,Migration-,0,0,0
@@ -797,14 +597,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Oceania,Future,Migration-,0,0,0
 2055,Oceania,Future,Migration-,0,0,0
 2060,Oceania,Future,Migration-,0,0,0
-2065,Oceania,Future,Migration-,0,0,0
-2070,Oceania,Future,Migration-,0,0,0
-2075,Oceania,Future,Migration-,0,0,0
-2080,Oceania,Future,Migration-,0,0,0
-2085,Oceania,Future,Migration-,0,0,0
-2090,Oceania,Future,Migration-,0,0,0
-2095,Oceania,Future,Migration-,0,0,0
-2100,Oceania,Future,Migration-,0,0,0
 1950,Oceania,Past,Deaths,-756461,-756461,-756461
 1955,Oceania,Past,Deaths,-771588,-771588,-771588
 1960,Oceania,Past,Deaths,-814411,-814411,-814411
@@ -828,14 +620,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Oceania,Future,Deaths,-2589023,-2571795,-2607649
 2055,Oceania,Future,Deaths,-2732005,-2711998,-2754211
 2060,Oceania,Future,Deaths,-2862373,-2839210,-2888516
-2065,Oceania,Future,Deaths,-2991114,-2963815,-3021965
-2070,Oceania,Future,Deaths,-3136580,-3103421,-3173855
-2075,Oceania,Future,Deaths,-3298210,-3256689,-3344543
-2080,Oceania,Future,Deaths,-3445584,-3392155,-3505344
-2085,Oceania,Future,Deaths,-3537234,-3467064,-3615346
-2090,Oceania,Future,Deaths,-3573797,-3480777,-3676636
-2095,Oceania,Future,Deaths,-3593774,-3469748,-3729692
-2100,Oceania,Future,Deaths,0,0,0
 1950,Oceania,Past,Population,12405962,12405962,12405962
 1955,Oceania,Past,Population,13971517,13971517,13971517
 1960,Oceania,Past,Population,15679577,15679577,15679577
@@ -859,14 +643,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Oceania,Future,Population,57652764,53264124,62135486
 2055,Oceania,Future,Population,59402666,53907845,65120910
 2060,Oceania,Future,Population,60992592,54243373,68202239
-2065,Oceania,Future,Population,62436554,54299593,71379017
-2070,Oceania,Future,Population,63751487,54134852,74603328
-2075,Oceania,Future,Population,64919998,53765704,77809332
-2080,Oceania,Future,Population,65910540,53172689,80966596
-2085,Oceania,Future,Population,66737003,52364194,84126994
-2090,Oceania,Future,Population,67434886,51376995,87356948
-2095,Oceania,Future,Population,68070784,50282238,90734228
-2100,Oceania,Future,Population,68657041,49115617,94236094
 1950,Oceania,Past,Births,1821510,1821510,1821510
 1955,Oceania,Past,Births,2031062,2031062,2031062
 1960,Oceania,Past,Births,2209632,2209632,2209632
@@ -890,14 +666,6 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Oceania,Future,Births,3615361,2491873,4869587
 2055,Oceania,Future,Births,3598384,2323838,5112059
 2060,Oceania,Future,Births,3582814,2171732,5341744
-2065,Oceania,Future,Births,3582372,2075246,5522655
-2070,Oceania,Future,Births,3581382,2010548,5656269
-2075,Oceania,Future,Births,3565014,1940108,5778317
-2080,Oceania,Future,Births,3548418,1860062,5942151
-2085,Oceania,Future,Births,3511420,1410051,6121633
-2090,Oceania,Future,Births,3485985,1661745,6330106
-2095,Oceania,Future,Births,3456271,1578182,6507838
-2100,Oceania,Future,Births,0,0,0
 1950,Oceania,Past,Migration+,500506,500506,500506
 1955,Oceania,Past,Migration+,448586,448586,448586
 1960,Oceania,Past,Migration+,348524,348524,348524
@@ -921,11 +689,3 @@ Year,Region,Period,Category,Medium,Low,High
 2050,Oceania,Future,Migration+,723564,723643,723486
 2055,Oceania,Future,Migration+,723547,723688,723481
 2060,Oceania,Future,Migration+,723521,723698,723550
-2065,Oceania,Future,Migration+,723675,723828,723621
-2070,Oceania,Future,Migration+,723709,723725,723590
-2075,Oceania,Future,Migration+,723738,723566,723490
-2080,Oceania,Future,Migration+,723629,723598,723591
-2085,Oceania,Future,Migration+,723697,1069814,723667
-2090,Oceania,Future,Migration+,723710,724275,723810
-2095,Oceania,Future,Migration+,723760,724945,723720
-2100,Oceania,Future,Migration+,0,0,0

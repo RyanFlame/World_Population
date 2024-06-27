@@ -22,6 +22,17 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="World Population Analysis", page_icon=":globe_with_meridians:",layout="wide")
 st.title(" :globe_with_meridians: World Population Analysis")
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
 #######################
@@ -84,8 +95,8 @@ def make_choropleth(input_df, selected_year, selected_continent, selected_countr
 #######################
 
 # Horizontal menu
-selected2 = option_menu(None, ["Home", "Dashboard", "Dataset"], 
-    icons=['house', 'file-bar-graph', "list-task"], 
+selected2 = option_menu(None, ["Home", "Dashboard", "Story Tellings","Dataset"], 
+    icons=['house', 'file-bar-graph', "","list-task"], 
     menu_icon="cast", default_index=0, orientation="horizontal")
 
 if selected2 == "Home":
@@ -267,12 +278,14 @@ elif selected2 == "Dashboard":
 )
 
 ################################################################
+
+elif selected2 == "Story Tellings":
     colored_header(
             label="📜Population Story Tellings",
             description="This is comprehensive information of the world population - Press the next button to see the animation",
             color_name="yellow-70",)
 
-    width=1000
+    width=1280
     height=600
 
     # initialize chart
@@ -286,10 +299,6 @@ elif selected2 == "Dashboard":
     sel_region = st.selectbox(
         'Select region',
         list(regions))
-
-    skip_intro = st.checkbox(
-        'Skip intro slides', value=False
-    )
 
     df_region = df[df['Region'] == sel_region]
 
@@ -350,10 +359,7 @@ elif selected2 == "Dashboard":
     # Add the first slide, containing a single animation step 
     # that sets the initial chart.
 
-    if skip_intro:
-        style['plot']['marker']['colorPalette'] = region_palette_str
-    else:
-        slide1 = Slide(
+    slide1 = Slide(
             Step(
                 Data.filter("record.Period === 'Past' && record.Category === 'Population'"),
                 Config(
@@ -368,10 +374,10 @@ elif selected2 == "Dashboard":
             )
         )
         # Add the slide to the story
-        story.add_slide(slide1)
+    story.add_slide(slide1)
 
         # Show components side-by-side
-        slide2 = Slide(
+    slide2 = Slide(
             Step(
                 Config(
                     {
@@ -384,11 +390,11 @@ elif selected2 == "Dashboard":
                 Style({ 'plot.marker.colorPalette': region_palette_str })
             )
         )
-        story.add_slide(slide2)
+    story.add_slide(slide2)
 
         # Show components side-by-side
-        slide3 = Slide()
-        slide3.add_step(    
+    slide3 = Slide()
+    slide3.add_step(    
             Step(
                 Data.filter("record.Category === 'Population'"),
                 Config(
@@ -397,12 +403,12 @@ elif selected2 == "Dashboard":
                         'color': 'Region',
                 #     'lightness': 'Period',
                 #     'x': ['Year','Period'],
-                        'title': 'The Population of Regions 1950-2100',
+                        'title': 'The Population of Regions 1950-2060',
                     }
                 )
         ))
 
-        slide3.add_step(    
+    slide3.add_step(    
             Step(
                 Config(
                     {
@@ -411,9 +417,9 @@ elif selected2 == "Dashboard":
                 )
         ))
 
-        story.add_slide(slide3)
+    story.add_slide(slide3)
 
-        slide4 = Slide(
+    slide4 = Slide(
             Step(
                 Config(
                     {
@@ -423,22 +429,22 @@ elif selected2 == "Dashboard":
                 Style({'plot' : {'yAxis' :{ 'label' :{ 'color' : '#99999900'}}}})
             )
         )
-        story.add_slide(slide4)
+    story.add_slide(slide4)
 
-        slide5 = Slide(
+    slide5 = Slide(
             Step(
                 Config.percentageArea(
                     {
                         'x':'Year',
                         'y':'Medium',
                         'stackedBy':'Region',
-                        'title': 'The Population of Regions 1950-2100 (%)'
+                        'title': 'The Population of Regions 1950-2060 (%)'
                     }
                 ),
                 Style({'plot' : {'yAxis' :{ 'label' :{ 'color' : '#999999FF'}}}})
             )
         )
-        story.add_slide(slide5)
+    story.add_slide(slide5)
 
 
     slide6 = Slide()
@@ -458,7 +464,7 @@ elif selected2 == "Dashboard":
         Step(
             Data.filter(f'record.Category === "Population" && record.Region === "{sel_region}"'),
             Config({
-                    'title': 'The Population of '+sel_region+' 1950-2100',
+                    'title': 'The Population of '+sel_region+' 1950-2060',
                     'channels':{'y':{
                         'range':{'max':pop_max}
                     }}
@@ -679,7 +685,7 @@ elif selected2 == "Dataset":
                 st.write("*This carefully selected dataset was included for two reasons relevant to our research project. First and foremost, it aims to provide keen readers with a detailed and nuanced summary of key data on the world's population. By consolidating statistical data on demographic trends, migration patterns, birth and death rates, this dataset contributes to a deeper understanding of the population environment complexities that humanity faces. Second, a more comprehensive set of global population statistics is needed to create the series of charts in Population Story Tellings section. This episode takes us on a fascinating journey through the complex story of global population dynamics, as we piece together the facts.*")    
 
                 st.write("**VARIABLES:**")
-                st.markdown("1. :blue[**Year:**] The year of the data point, ranging from 1950 to 2100.")
+                st.markdown("1. :blue[**Year:**] The year of the data point, ranging from 1950 to 2060.")
                 st.markdown("2. :blue[**Region:**] Names of the continents.")
                 st.markdown("3. :blue[**Period:**] The detail status of years which filters the Past (Confirmed Data) or Future (Conjectured Data).")
                 st.markdown("4. :blue[**Category:**] Includes population categories such as the number of births, deaths, immigration, emigration and total population over the years of each continent.")
